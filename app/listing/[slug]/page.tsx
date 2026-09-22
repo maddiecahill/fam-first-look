@@ -16,7 +16,7 @@ export default async function ListingPage({ params }: { params: Promise<{ slug: 
   const gallery = home.gallery.length ? home.gallery : [home.image];
 
   return <main className="min-h-screen bg-[#0f1720] text-white">
-    <header className="border-b border-white/10 bg-[#0f1720]/95 px-5 py-5 md:px-10"><div className="mx-auto flex max-w-7xl items-center justify-between"><Link href="/" className="text-xs font-bold uppercase tracking-[.26em]">← FAM First Look</Link><a href="https://firstandmainrealestate.com"><img src="https://raw.githubusercontent.com/maddiecahill/fam-grand-tour/main/public/fam-logo.png" alt="FIRST AND MAIN" className="h-7 w-auto" /></a></div></header>
+    <header className="border-b border-white/10 bg-[#0f1720]/95 px-5 py-5 md:px-10"><div className="mx-auto flex max-w-7xl items-center justify-between"><Link href="/" className="text-xs font-bold uppercase tracking-[.26em]">← FAM First Look</Link></div></header>
     {home.isDemo && <div className="bg-[#c6a45e]/15 px-5 py-3 text-center text-xs font-bold uppercase tracking-[.18em] text-[#e4cc98]">Demo Preview — not a property offered for sale</div>}
 
     <section className="px-4 py-5 md:px-8 md:py-8"><div className="mx-auto grid max-w-7xl gap-3 md:grid-cols-2 md:grid-rows-2">

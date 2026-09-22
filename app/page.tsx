@@ -12,9 +12,6 @@ export default async function Home() {
         <img src="https://raw.githubusercontent.com/maddiecahill/fam-grand-tour/main/public/public-background.png" alt="" className="absolute inset-0 h-full w-full object-cover opacity-30" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_75%_25%,rgba(198,164,94,.17),transparent_30%),linear-gradient(135deg,rgba(15,23,32,.94),rgba(23,37,54,.78)_55%,rgba(15,23,32,.95))]" />
         <div className="relative z-10 mx-auto flex min-h-[560px] max-w-7xl flex-col justify-center px-6 py-20 md:px-10">
-          <a href="https://firstandmainrealestate.com" className="mb-16 inline-flex w-fit items-center">
-            <img src="https://raw.githubusercontent.com/maddiecahill/fam-grand-tour/main/public/fam-logo.png" alt="FIRST AND MAIN Real Estate" className="h-11 w-auto md:h-14" />
-          </a>
           <p className="text-xs font-bold uppercase tracking-[.3em] text-[#c6a45e]">Exclusive Property Discovery</p>
           <h1 className="mt-5 max-w-5xl text-5xl font-semibold tracking-[-.035em] md:text-8xl">FAM FIRST LOOK</h1>
           <p className="mt-5 text-2xl font-light text-white/90 md:text-4xl">See what&apos;s next, first.</p>
