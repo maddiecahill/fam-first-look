@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+:root { --navy:#0f1720; --navy2:#111927; --gold:#c6a45e; --paper:#f6f4ef; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin:0; background:var(--navy); color:#fff; font-family: Arial, Helvetica, sans-serif; }
+::selection { background:#c6a45e; color:#111927; }
+button, a, input, select { outline-color:#c6a45e; }
+.hide-scrollbar::-webkit-scrollbar { display:none; }
+.hide-scrollbar { scrollbar-width:none; }
+.maplibregl-popup-content { border-radius:18px !important; padding:14px !important; box-shadow:0 16px 40px rgba(0,0,0,.18) !important; }
+.maplibregl-popup-close-button { font-size:20px; padding:4px 8px; }
