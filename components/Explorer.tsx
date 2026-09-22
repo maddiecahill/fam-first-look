@@ -47,7 +47,7 @@ export default function Explorer({ listings }: { listings: FirstLookListing[] })
           <div>
             <p className="text-xs font-bold uppercase tracking-[.28em] text-[#c6a45e]">Interactive First Look Map</p>
             <h2 className="mt-3 text-3xl font-semibold md:text-5xl">Explore what&apos;s next.</h2>
-            <p className="mt-4 max-w-2xl text-sm leading-7 text-white/65 md:text-base">Select a home on the map or browse the cards below. Public display depends on the seller&apos;s IDX authorization.</p>
+            <p className="mt-4 max-w-2xl text-sm leading-7 text-white/65 md:text-base">Select a home on the map or browse the cards below.</p>
           </div>
           <div className="text-sm text-white/50">{filtered.length} {filtered.length === 1 ? "home" : "homes"}</div>
         </div>
